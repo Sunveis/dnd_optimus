@@ -1,4 +1,24 @@
-mainhead{
+.mainhead {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    background-color: #14100E;
+    backdrop-filter: blur(15px);
+    padding: 15px 30px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
 }
