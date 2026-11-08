@@ -4,6 +4,7 @@
     justify-content: space-between;
     padding: 10px 30px;
     background-color: #14100E;
+
 }
 
 .logo a {
@@ -60,4 +61,119 @@ nav a {
     gap: 15px;
     padding: 10px 20px;
     border-radius: 20px;
+}
+
+.summarygame {
+    padding: 30px;
+}
+
+.summarygame dl {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 900px;
+    margin-left: 300px;
+    padding: 0;
+    gap: 15px;
+}
+
+.timegame,
+.countplayer,
+.studioarea {
+    text-align: left;
+}
+
+.summarygame dd {
+    margin: 0;
+}
+
+.summarygame dt {
+    font-size: 14px;
+}
+
+.htgig_p,
+.htgig_h1{
+    margin-left:300px
+}
+
+.Howthegameisgoing ol{
+    margin-left: 300px;
+    justify-content: space-between;
+    padding: 0;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.Howthegameisgoing li{
+    list-style-type: none;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.request,
+.booking,
+.preparation,
+.gamekk{
+    text-align: left;
+    color:white;
+    padding: 10px;
+}
+
+.mm{
+    margin-left: 300px;
+    border-radius: 15px;
+    background-color: black;
+    color:white;
+    text-align: center;
+}
+
+.shortinfo {
+    background-color: black;
+    color: white;
+    padding: 40px;
+}
+
+.shortinfo_contetn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo2 {
+    margin-left:300px;
+    width: 380px;
+}
+
+.logo2 a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 28px;
+}
+
+.logo2 p {
+    color: white;
+}
+
+
+.contact2 h3,
+.socialmedia2 h3 {
+    color: white;
+}
+.contact2 p {
+    color: white;
+    
+}
+.contact2 a {
+    color: white;
+}
+.socialmedia2 ul {
+    display: flex;
+    gap:10px;
+    color:white;
+    list-style: none;
+    padding: 0;
 }
