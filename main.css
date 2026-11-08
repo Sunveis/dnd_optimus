@@ -1,10 +1,14 @@
 .mainhead {
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		box-sizing: border-box;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 30px;
+    padding: 10px;
     background-color: #14100E;
-
 }
 
 .logo a {
@@ -49,8 +53,9 @@ nav a {
     cursor: pointer;
 }
 .bzz{
-    margin-left: 300px;
-    padding: 10px 20px;
+    margin-left: 200px;
+		margin-right: 200px;
+    padding: 100px 20px 10px 20px;
 }
 .bzzbuttons {
     display: flex;
@@ -65,16 +70,23 @@ nav a {
 
 .summarygame {
     padding: 30px;
+
+		border: 2px solid black;
+
+		margin-top: 25px;
+		margin-bottom: 25px;
 }
 
 .summarygame dl {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 900px;
-    margin-left: 300px;
-    padding: 0;
-    gap: 15px;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+}
+
+.summarygame dl > div {
+	border-radius: 15px;
+	background-color: #C0C0C0;
+	padding: 15px;
 }
 
 .timegame,
@@ -93,11 +105,12 @@ nav a {
 
 .htgig_p,
 .htgig_h1{
-    margin-left:300px
+    margin-left: 200px
 }
 
 .Howthegameisgoing ol{
-    margin-left: 300px;
+    margin-left: 200px;
+		margin-right: 200px;
     justify-content: space-between;
     padding: 0;
     gap: 15px;
@@ -111,18 +124,32 @@ nav a {
     border-radius: 15px;
 }
 
-.request,
-.booking,
-.preparation,
-.gamekk{
+.gamesteps {
     text-align: left;
     color:white;
     padding: 10px;
 }
 
-.mm{
-    margin-left: 300px;
+.Whotheclubisfor ol {
+	margin-left: 200px;
+		margin-right: 200px;
+    justify-content: space-between;
+    padding: 0;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.Whotheclubisfor li {
+	list-style-type: none;
+    background-color: black;
     border-radius: 15px;
+}
+
+.mm{
+    margin-left: 200px;
+		margin-right: 200px;
+		border-radius: 15px;
     background-color: black;
     color:white;
     text-align: center;
@@ -131,18 +158,19 @@ nav a {
 .shortinfo {
     background-color: black;
     color: white;
-    padding: 40px;
-}
+		margin-top: 10px;
+		padding: 40px;
+	}
 
 .shortinfo_contetn {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-evenly;
+    align-items: start;
     margin: 0 auto;
 }
 
 .logo2 {
-    margin-left:300px;
+    /* margin-left: 150px; */
     width: 380px;
 }
 
@@ -151,7 +179,7 @@ nav a {
     align-items: center;
     gap: 10px;
     color: white;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 .logo2 p {
