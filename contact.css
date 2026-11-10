@@ -1,0 +1,141 @@
+/* главное */
+.mainhead {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #14100E;
+}
+
+.logo a {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	color: white;
+}
+
+nav ul {
+	display: flex;
+	gap: 25px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+.vktgandbutton {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+
+.vktgandbutton ul {
+	display: flex;
+	gap: 15px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.vktgandbutton button {
+	padding: 10px 20px;
+	background-color: #14100E;
+	color: white;
+	border-radius: 20px;
+	cursor: pointer;
+}
+/* Контакты */
+
+.contactHeading {
+	margin-top: 150px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid black;
+}
+
+.contactHeading h1 {
+	padding: 0px 200px 0px 200px;
+}
+
+.contactInfo {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contacts div {
+	padding-top: 10px;
+	padding-left: 200px;
+}
+
+.contacts a {
+	color: black;
+}
+
+.map img {
+	margin-right: 200px;
+	margin-top: 30px;
+}
+
+/* footer */
+.shortinfo {
+	background-color: black;
+	color: white;
+	margin-top: 10px;
+	padding: 40px;
+}
+
+.shortinfo_contetn {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: start;
+	margin: 0 auto;
+}
+
+.logo2 {
+	/* margin-left: 150px; */
+	width: 380px;
+}
+
+.logo2 a {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	color: white;
+	font-size: 24px;
+}
+
+.logo2 p {
+	color: white;
+}
+
+
+.contact2 h3,
+.socialmedia2 h3 {
+	color: white;
+}
+
+.contact2 p {
+	color: white;
+
+}
+
+.contact2 a {
+	color: white;
+}
+
+.socialmedia2 ul {
+	display: flex;
+	gap: 10px;
+	color: white;
+	list-style: none;
+	padding: 0;
+}

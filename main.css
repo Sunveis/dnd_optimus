@@ -219,32 +219,3 @@ nav a {
 	list-style: none;
 	padding: 0;
 }
-
-.contactHeading {
-	margin-top: 150px;
-	margin-bottom: 30px;
-	border-bottom: 1px solid black;
-}
-
-.contactHeading h1 {
-	padding: 0px 200px 0px 200px;
-}
-
-.contactInfo {
-	display: flex;
-	justify-content: space-between;
-}
-
-.contacts div {
-	padding-top: 10px;
-	padding-left: 200px;
-}
-
-.contacts a {
-	color: black;
-}
-
-.map img {
-	margin-right: 200px;
-	margin-top: 30px;
-}

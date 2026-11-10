@@ -1,0 +1,180 @@
+.mainhead {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px;
+	background-color: #14100E;
+}
+
+.logo a {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	color: white;
+}
+
+nav ul {
+	display: flex;
+	gap: 25px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+.vktgandbutton {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+
+.vktgandbutton ul {
+	display: flex;
+	gap: 15px;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.vktgandbutton button {
+	padding: 10px 20px;
+	background-color: #14100E;
+	color: white;
+	border-radius: 20px;
+	cursor: pointer;
+}
+/*-----------------------------------------------------------*/
+.Priceh1p {
+	margin-top: 150px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid black;
+}
+.Priceh1p h1,
+.Priceh1p p {
+	padding: 0 200px 0 300px;
+}
+.Tariff {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 15px;
+	margin: 0 200px 30px 300px;
+}
+
+.Tariff h3 {
+	margin: 0;
+}
+
+.buttonprice {
+	display: flex;
+	background-color: gray;
+	border-radius: 20px;
+}
+
+.buttonprice button {
+	width: 130px;
+	height: 30px;
+	color: black;
+	background-color: white;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.PriceInfo {
+	display: flex;
+	gap: 40px;
+	margin: 0 200px 50px 300px;
+}
+
+.PriceInfo1 {
+	flex: 1;
+	background-color: black;
+	color: white;
+	border: 1px solid gray;
+	border-radius: 30px;
+	padding: 30px 40px;
+}
+
+.PriceInfo1 h3 {
+	font-size: 24px;
+	color: white;
+	margin: 0 0 20px;
+}
+
+.PriceInfo1 ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.PriceInfo1 li {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 18px 0;
+	border-bottom: 1px solid gray;
+	font-size: 14px;
+	color: white;
+}
+
+.PriceInfo1 li p {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+}
+
+.price p {
+	font-size: 24px;
+	color: white;
+}
+
+.teambuilding {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin: 0 200px 50px 300px;
+	padding: 30px 40px;
+	background-color: black;
+	color: white;
+	border: 1px solid gray;
+	border-radius: 30px;
+}
+
+.teambuilding h1 {
+	margin: 0;
+}
+
+.teambuilding  p {
+	margin: 0;
+}
+
+.teambuildingtextandbutton {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 40px;
+	margin-top: 10px;
+}
+
+.teambb p {
+	margin: 0;
+	font-size: 18px;
+}
+
+.teambuildingtextandbutton button {
+	padding: 12px 24px;
+	background-color: white;
+	color: black;
+	border: none;
+	border-radius: 20px;
+	cursor: pointer;
+}
