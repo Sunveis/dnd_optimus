@@ -68,6 +68,7 @@ nav a {
 .bzzbuttons button {
 	color: white;
 	background-color: black;
+	cursor: pointer;
 }
 
 .bzz button {
@@ -139,6 +140,10 @@ nav a {
 	text-align: left;
 	color: white;
 	padding: 10px;
+}
+
+.Whotheclubisfor {
+	margin-top: 50px;
 }
 
 .Whotheclubisfor ol {

@@ -84,8 +84,8 @@ nav a {
 .buttonprice button {
 	width: 130px;
 	height: 30px;
-	color: black;
-	background-color: white;
+	color: white;
+	background-color: black;
 	border-radius: 20px;
 	cursor: pointer;
 }
