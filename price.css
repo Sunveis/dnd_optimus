@@ -178,3 +178,58 @@ nav a {
 	border-radius: 20px;
 	cursor: pointer;
 }
+
+.shortinfo {
+	background-color: black;
+	color: white;
+	margin-top: 10px;
+	padding: 40px;
+}
+
+.shortinfo_contetn {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: start;
+	margin: 0 auto;
+}
+
+.logo2 {
+	/* margin-left: 150px; */
+	width: 380px;
+}
+
+.logo2 a {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	color: white;
+	font-size: 24px;
+	cursor: default;
+}
+
+.logo2 p {
+	color: white;
+}
+
+
+.contact2 h3,
+.socialmedia2 h3 {
+	color: white;
+}
+
+.contact2 p {
+	color: white;
+
+}
+
+.contact2 a {
+	color: white;
+}
+
+.socialmedia2 ul {
+	display: flex;
+	gap: 10px;
+	color: white;
+	list-style: none;
+	padding: 0;
+}

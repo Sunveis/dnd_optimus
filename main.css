@@ -196,6 +196,7 @@ nav a {
 	gap: 10px;
 	color: white;
 	font-size: 24px;
+	cursor: default;
 }
 
 .logo2 p {
