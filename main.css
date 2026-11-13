@@ -60,6 +60,10 @@ nav a {
 	padding: 100px 20px 10px 20px;
 }
 
+.bzz p {
+	font-size: 18px;
+}
+
 .bzzbuttons {
 	display: flex;
 	gap: 15px;
@@ -79,12 +83,16 @@ nav a {
 }
 
 .summarygame {
-	padding: 30px;
+	margin-top: 20px;
+	padding: 10px;
 
 	border: 2px solid black;
+	border-radius: 15px;
 
 	margin-top: 25px;
 	margin-bottom: 25px;
+
+	background-color: #cdcdcd;
 }
 
 .summarygame dl {
@@ -95,16 +103,22 @@ nav a {
 
 .summarygame dl>div {
 	border-radius: 15px;
-	color: white;
-	background-color: black;
-	padding: 40px 15px;
+	color: black;
+	/* padding: 40px 15px; */
+}
+
+.summarygame div>dd {
+	font-size: 40px;
+}
+
+.summarygame div>dt {
+	font-size: 16px;
 }
 
 .timegame,
 .countplayer,
 .studioarea {
 	text-align: left;
-
 }
 
 .summarygame dd {
@@ -165,10 +179,13 @@ nav a {
 .mm {
 	margin-left: 200px;
 	margin-right: 200px;
-	border-radius: 15px;
-	background-color: black;
-	color: white;
+	border: 2px solid black;
+	border-radius: 10px;
+	background-color: #cdcdcd;
+	color: black;
 	text-align: center;
+	padding: 5px 0px;
+	font-size: 18px;
 }
 
 .shortinfo {
@@ -196,7 +213,6 @@ nav a {
 	gap: 10px;
 	color: white;
 	font-size: 24px;
-	cursor: default;
 }
 
 .logo2 p {

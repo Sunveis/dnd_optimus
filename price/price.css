@@ -63,6 +63,11 @@ nav a {
 .Priceh1p p {
 	padding: 0 200px 0 300px;
 }
+
+.Priceh1p p {
+	font-size: 18px;
+}
+
 .Tariff {
 	display: flex;
 	flex-direction: column;
@@ -204,7 +209,6 @@ nav a {
 	gap: 10px;
 	color: white;
 	font-size: 24px;
-	cursor: default;
 }
 
 .logo2 p {

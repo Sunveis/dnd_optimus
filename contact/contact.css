@@ -80,6 +80,10 @@ nav a {
 	color: black;
 }
 
+.contacts a, p {
+	font-size: 18px;
+}
+
 
 /* .maa{
 	background-color: black;
@@ -92,7 +96,7 @@ nav a {
 	
 }
 #map {
-    width: 800px;
+    width: 600px;
     height: 400px;
     border-radius: 20px;
     overflow: hidden;
