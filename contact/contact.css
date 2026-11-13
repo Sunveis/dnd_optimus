@@ -80,10 +80,29 @@ nav a {
 	color: black;
 }
 
-.map img {
+
+/* .maa{
+	background-color: black;
+} */
+ 
+/* карта */
+.map {
 	margin-right: 200px;
 	margin-top: 30px;
+	
 }
+#map {
+    width: 800px;
+    height: 400px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.ymaps-2-1-79-gototech {
+    display: none !important;
+}
+
+
+
 
 /* footer */
 .shortinfo {
@@ -139,3 +158,4 @@ nav a {
 	list-style: none;
 	padding: 0;
 }
+
