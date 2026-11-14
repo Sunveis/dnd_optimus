@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Price</title>
     <link rel="stylesheet" href="price.css">
+    
 </head>
 <body>
     <header class="mainhead">
@@ -43,10 +44,10 @@
     </section>
     <div class="Tariff">
         <h3>Тарифы</h3>
-        <!-- <div class="buttonprice">
-            <button>Обычная игра</button>
-            <button>Первая игра -15%</button>
-        </div> --> <!-- Not yet implemened -->
+        <div class="buttonprice">
+            <button onclick="setDiscount(0)">Обычная игра</button>
+            <button onclick="setDiscount(15)">Первая игра -15%</button>
+        </div> <!-- Not yet implemened -->
     </div>
     <section class="PriceInfo">
         <!-- Понедельник - четверг -->
@@ -163,5 +164,6 @@
             </div>
         </div>
     </footer>
+    <script src="../js/main.js"></script>
 </body>
 </html>
