@@ -134,6 +134,10 @@ nav a {
 	margin-left: 200px
 }
 
+section {
+	margin-top: 75px;
+}
+
 .Howthegameisgoing ol {
 	margin-left: 200px;
 	margin-right: 200px;
@@ -188,6 +192,40 @@ nav a {
 	font-size: 18px;
 }
 
+/* MiniFeedback */
+.feedbackEntry {
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 25px;
+
+	border: 2px solid black;
+	border-radius: 15px;
+	background: black;
+}
+
+.feedbackText {
+	padding-left: 15px;
+	font-size: 24px;
+	color: white;
+}
+
+.feedbackAuthor {
+	padding: 0px 0px 0px 15px;
+	font-size: 18px;
+	color: white;
+}
+
+.fullFeedbackLink {
+	margin: 0px 200px 0px 200px;
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.fullFeedbackLink:hover {
+	text-decoration: underline;
+}
+
 /* FAQ */
 .faq {
 	margin-top: 50px;
@@ -201,10 +239,9 @@ nav a {
 	padding: 30px 40px;
 	background-color: gray;
 	color: white;
+	border: 2px solid black;
 	border-radius: 30px;
 	margin-bottom: 20px;
-	
-
 }
 .faq_item {
 	cursor: pointer;
@@ -247,10 +284,6 @@ details[open] .faq_toggle {
 .Askaquestion:hover {
 	background-color: white;
 }
-
-
-
-
 
 /* Footer */
 .shortinfo {
