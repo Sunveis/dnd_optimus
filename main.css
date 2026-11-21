@@ -1,3 +1,4 @@
+
 .mainhead {
 	position: fixed;
 	top: 0;
@@ -9,6 +10,7 @@
 	justify-content: space-between;
 	padding: 10px;
 	background-color: #14100E;
+	
 }
 
 .logo a {
@@ -16,6 +18,11 @@
 	align-items: center;
 	gap: 10px;
 	color: white;
+	/* полезно */
+	background: url(res/fire.gif) bottom center/100% 300%;
+	-webkit-background-clip: text;
+	background-clip:text;
+	-webkit-text-fill-color: transparent;
 }
 
 nav ul {
@@ -280,6 +287,7 @@ details[open] .faq_toggle {
 	height: 50px;
 	border-radius: 20px;
 	cursor: pointer;
+	border: none;
 }
 .Askaquestion:hover {
 	background-color: white;
@@ -338,4 +346,232 @@ details[open] .faq_toggle {
 	color: white;
 	list-style: none;
 	padding: 0;
+}
+
+
+/* Singup */
+.signup {
+	padding: 0;
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+.signup::backdrop {
+	backdrop-filter: blur(1px); 
+}
+
+.signup_form {
+	padding: 30px 40px;
+}
+
+.signup_form_header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.signup_form_header h2 {
+	color: Black;
+	margin: 0;
+	font-size: 32px;
+}
+
+.close_signup_form {
+	width: 50px;
+	background: none;
+	border: none;
+	color: gray;
+	font-size: 32px;
+	cursor: pointer;
+}
+
+.close_signup_form:hover {
+	color: black;
+}
+
+.signup form {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	margin-top: 20px;
+}
+
+.group {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.group legend {
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+.signup .row {
+	display: flex;
+	gap: 12px;
+}
+
+.signup .row > * {
+	flex: 1;
+}
+
+.hint,
+.spanoptional {
+	margin: 0;
+	font-size: 14px;
+	color: black;
+}
+.field {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+
+.signup input[type="text"],
+.signup input[type="number"],
+.signup input[type="date"],
+.signup select,
+.signup textarea {
+	padding: 14px 16px;
+	background-color: gray;
+	color: black;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+input::placeholder{
+	color: black;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	padding: 14px 16px;
+	background-color: gray;
+	border: 2px solid black;
+	border-radius: 15px;
+	cursor: pointer;
+}
+
+.card input {
+	flex: none;
+	width: 18px;
+	height: 18px;
+	margin: 0;
+}
+
+.card:has(input:checked) {
+	background-color: gray;
+	color: black;
+	border-color: white;
+}
+
+
+.card:has(input:disabled) {
+	opacity: 0.45;
+	cursor: not-allowed;
+}
+
+.total {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border-radius: 20px;
+	background-color: gray;
+	padding: 20px;
+}
+.itog_text{
+	border-bottom: 2px solid black;
+}
+.itog {
+	font-size: 20px;
+}
+
+.signup button[type="submit"] {
+	padding: 14px 20px;
+	background-color: gray;
+	color: black;
+	border: none;
+	border-radius: 20px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.signup button[type="submit"]:hover {
+	background-color: rgb(179, 179, 179);
+}
+
+
+
+/* Askaquestionform */
+.Askaquestion_Window {
+	padding: 0;
+	background-color: white;
+	color: black;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+
+.Askaquestion_Window::backdrop {
+	backdrop-filter: blur(1px);
+}
+
+.Askaquestion_form {
+	padding: 30px 40px;
+}
+
+.Askaquestion_header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.Askaquestion_header h2 {
+	margin: 0;
+	font-size: 32px;
+}
+
+.Askaquestion_form form {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	margin-top: 20px;
+}
+
+.contact_info_quest,
+.question_text {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.Askaquestion_Window input[type="text"],
+.Askaquestion_Window textarea {
+	padding: 14px 16px;
+	background-color: gray;
+	color: black;
+	border: 2px solid black;
+	border-radius: 20px;
+}
+.Askaquestion_Window button[type="submit"] {
+	padding: 14px 20px;
+	background-color: gray;
+	color: black;
+	border: none;
+	border-radius: 20px;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+.Askaquestion_Window button[type="submit"]:hover {
+	background-color: rgb(179, 179, 179);
+	border: 1px solid black;
 }

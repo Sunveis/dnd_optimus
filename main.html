@@ -34,7 +34,7 @@
             <li><a href="https://vk.ru/foot.fetishism.dishwasher" target="_blank" rel="noopener noreferrer"> <img src="./res/VK.svg" alt="VK" width="30"> </a></li>
             <li><a href="https://t.me/Dnd_optimus" target="_blank" rel="noopener noreferrer"> <img src="./res/Telegram.svg" alt="Telegram" width="30"> </a></li>
     	</ul>
-        <button>Записаться</button>
+        <button type="button" data-open-signup>Записаться</button>
     </div>
 </header>
     <main>
@@ -46,7 +46,7 @@
                 мастером в атмосферной студии. Подберём группу, подготовим персонажа и расскажем всё, что нужно.</p>
             </div>
             <div class="bzzbuttons">
-                <button>Записаться на игру</button>
+                <button type="button" data-open-signup>Записаться на игру</button>
                 <a href="./price/price.html"><button>Стоимость</button></a>
                 
             </div>
@@ -194,6 +194,129 @@
             </div>
         </div>
     </footer>
+
+    <dialog class="signup" id="signup">
+        <div class="signup_form">
+            <div class="signup_form_header">
+                <h2>Записаться на игру</h2>
+                <button type="button" class="close_signup_form">&times;</button>
+            </div>
+            <form>
+                <fieldset class="group">
+                    <legend>Тип записи</legend>
+                    <label class="card">
+                        <input type="radio" name="typerecord" value="standard" checked>
+                        <span>Обычная запись</span>
+                    </label>
+                    <label class="card">
+                        <input type="radio" name="typerecord" value="ialone">
+                        <span>Я один(а), объединить меня с группой</span>
+                    </label>
+                    <label class="card">
+                        <input type="radio" name="typerecord" value="yourowncompany" id="company" disabled>
+                        <span>Своя компания (от 5 человек, фиксированная цена)</span>
+                    </label>
+                    <p class="hint">«Своя компания» доступна от 5 человек — для меньшей группы выберите обычную запись.</p>
+                </fieldset>
+
+                <label class="field">
+                    <span>Имя или ник</span>
+                    <input type="text" name="name" autocomplete="name" required>
+                </label>
+
+                <label class="field">
+                    <span>Telegram или телефон</span>
+                    <input type="text" name="contact" autocomplete="tel" placeholder="@nickname или +7 900 123-45-67" required>
+                    <span class="hint">Укажите телефон или Telegram-ник, например: +7 900 123-45-67 или @nickname</span>
+                </label>
+
+                <div class="row">
+                    <label class="field">
+                        <span>Количество человек</span>
+                        <input type="number" name="people" id="people" inputmode="numeric" min="1" max="6" value="2">
+                    </label>
+                    <label class="field">
+                        <span>Дата</span>
+                        <input type="date" name="date">
+                    </label>
+                </div>
+
+                <fieldset class="group">
+                    <legend>Формат</legend>
+                    <div class="row">
+                        <label class="card"><input type="radio" name="format" value="day"><span>День, 12:00–17:00</span></label>
+                        <label class="card"><input type="radio" name="format" value="evening"><span>Вечер, 18:30–23:30</span></label>
+                    </div>
+                </fieldset>
+
+                <label class="field">
+                    <span>Опыт</span>
+                    <select name="experience">
+                        <option value="">Выберите</option>
+                        <option value="novice">Новичок</option>
+                        <option value="experienced">Опытный</option>
+                        <option value="mixed">Смешанная группа</option>
+                    </select>
+                </label>
+
+                <label class="card">
+                    <input type="checkbox" name="first_time">
+                    <span>Я играю впервые (скидка 15%)</span>
+                </label>
+
+                <fieldset class="group">
+                    <legend>Персонаж <span class="spanoptional">(необязательно)</span></legend>
+                    <div class="row">
+                        <label class="card"><input type="radio" name="persona" value="prepare"><span>Создам заранее</span></label>
+                        <label class="card"><input type="radio" name="persona" value="onsite"><span>Выберу на месте</span></label>
+                    </div>
+                </fieldset>
+
+                <label class="field">
+                    <span>Запрещённые темы и пожелания по вселенной <span class="spanoptional">(необязательно)</span></span>
+                    <textarea name="taboo" rows="2"></textarea>
+                </label>
+
+                <label class="field">
+                    <span>Комментарий <span class="spanoptional">(необязательно)</span></span>
+                    <textarea name="comment" rows="2"></textarea>
+                </label>
+
+                <div class="total">
+                    <p class="itog_text">Итоговая стоимость</p>
+                    <p class="itog"></p>
+                </div>
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </dialog>
+    <dialog class="Askaquestion_Window" id="Askaquestion_Window">
+        <div class="Askaquestion_form">
+            <div class="Askaquestion_header">
+                <h2>Записаться на игру</h2>
+                <button type="button" class="close_signup_form">&times;</button>
+            </div>
+            <form>
+                <label class="contact_info_quest">
+                    <span>Имя или ник</span>
+                    <input type="text" name="name" autocomplete="name" required>
+                </label>
+
+                <label class="contact_info_quest">
+                    <span>Telegram или телефон</span>
+                    <input type="text" name="contact" autocomplete="tel" placeholder="@nickname или +7 900 123-45-67" required>
+                    <span class="hint">Укажите телефон или Telegram-ник, например: +7 900 123-45-67 или @nickname</span>
+                </label>
+                
+                <label class="question_text">
+                    <span>Ваш вопрос </span>
+                    <textarea name="required" rows="2"></textarea>
+                </label>
+                <button class="Askaquestion_Window" type="submit">Отправить</button>
+            </form>
+        </div>
+    </dialog>
+    <script src="./js/singup.js"></script>
 </body>
 
 </html>
